@@ -1,0 +1,75 @@
+.card-weather{
+    position: absolute;
+    width: 25%;
+    height: 45%;
+    top: 19%;
+    left: 73%;
+}
+.weather-city{
+    color: #636368;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+.hr-line-weather-card{
+    float: left;
+    width: 95%;
+    margin-top: -1px;
+}
+.weather-condition,.weather-report{
+    color: #3C4043;
+}
+.forecast-day{
+    font-size: 18px;
+    margin-left: 15px;
+    font-weight: 450;
+    font-size: 1rem;
+    color: #3C4043;
+
+}
+.max-temp,.min-temp{
+    color: #3C4043;
+    margin-left: 15px;
+    font-weight: 550;
+}
+.forecast-list{
+    margin-top: -50px;
+    margin-left: 2px;
+}
+.weather{
+    height: 100px;
+    width: 100px;
+    margin-top: -10px;
+}
+.big-weather-icon{
+    height: 80px;
+    width: 80px;
+}
+.left-side{
+    margin-top: -35px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.vertical-line{
+    border-left: 2px solid black;
+    height: 15px;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+.content-under-card{
+    margin-left: 5px;
+    margin-top: 40px;
+}
+.right-side{
+    float: right;
+    
+    margin-top: -40px;
+    margin-left: 125px;
+}
+.right-side .nav-link{
+    color: #1A73E9;
+}
+.active-weather{
+    font-weight: 500;
+    color: black;
+}

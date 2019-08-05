@@ -1,0 +1,33 @@
+.individual-news-card {
+    left: 25%;
+    width: 50%;
+    margin-top: 10px;
+    height: 30%;
+
+
+}
+.news-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: -50px;
+}
+.news-title{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: -60px;
+}
+.individual-news-content::before{
+    content: "\2022"; 
+    color: #1A73E9;
+    width: 1em;
+    height: 2em ;
+    font-weight: bold;
+    display: inline-block;
+}
+.individual-news-content{
+    font-size: 16px;
+}
+.below-content-individual{
+    margin-top: 10px;
+}
